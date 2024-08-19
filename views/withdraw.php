@@ -4,7 +4,7 @@ session_start(); // Start the session
 // Check if the user is authenticated
 if (!isset($_SESSION['authToken'])) {
     // If not authenticated, redirect to the login page
-    header("Location: /cryptoback2/logout.php");
+    header("Location: /bitwise/logout.php");
     exit();
 }
 
@@ -95,13 +95,13 @@ if (!isset($_SESSION['authToken'])) {
                         <a class="nav-link" href="#">Balance: $0</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Cryptoback2/dashboard/deposit">Deposit</a>
+                        <a class="nav-link" href="/bitwise/dashboard/deposit">Deposit</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/Cryptoback2/dashboard/withdraw">Withdraw</a>
+                        <a class="nav-link active" href="/bitwise/dashboard/withdraw">Withdraw</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/cryptoback2/logout.php">Logout</a>
+                        <a class="nav-link" href="/bitwise/logout.php">Logout</a>
                     </li>
                 </ul>
             </div>

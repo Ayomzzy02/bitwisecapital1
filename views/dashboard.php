@@ -4,7 +4,7 @@ session_start(); // Start the session
 // Check if the user is authenticated
 if (!isset($_SESSION['authToken'])) {
     // If not authenticated, redirect to the login page
-    header("Location: /cryptoback2/logout.php");
+    header("Location: /bitwise/logout.php");
     exit();
 }
 ?>
@@ -46,7 +46,7 @@ if (!isset($_SESSION['authToken'])) {
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/Cryptoback2/dashboard"><b>BITWISE CAPITAL</b></a>
+    <a class="navbar-brand" href="/bitwise/dashboard"><b>BITWISE CAPITAL</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -66,13 +66,13 @@ if (!isset($_SESSION['authToken'])) {
               Invested Amount: $0        </font></a>
            </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Cryptoback2/dashboard/deposit">Deposit</a>
+          <a class="nav-link" href="/bitwise/dashboard/deposit">Deposit</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Cryptoback2/dashboard/withdraw">Withdraw</a>
+          <a class="nav-link" href="/bitwise/dashboard/withdraw">Withdraw</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/cryptoback2/logout.php">Logout</a>
+          <a class="nav-link" href="/bitwise/logout.php">Logout</a>
         </li>    
       </ul>
     </div>

@@ -11,8 +11,8 @@
 </br>
 </br>
 
-<link href="/cryptoBack2/assets/font-awesome.css" rel="stylesheet"><!-- Font-awesome-CSS --> 
-<link href="/cryptoBack2//assets/style.css" rel='stylesheet' type='text/css'/><!-- style.css --> 
+<link href="/bitwise/assets/font-awesome.css" rel="stylesheet"><!-- Font-awesome-CSS --> 
+<link href="/bitwise//assets/style.css" rel='stylesheet' type='text/css'/><!-- style.css --> 
 <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <style>
 	/* The Modal (background) */
@@ -43,7 +43,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		<script src="/cryptoBack2/assets/jquery.min.js"></script>
+		<script src="/bitwise/assets/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 		<script>$(document).ready(function(c) {
 		$('.alert-close').on('click', function(c){
@@ -110,15 +110,9 @@
             if (response.status === 200 && response.data.status === 'success') {
                 // 3. Show success modal
                 showModal(`${response.data.message}`, 'success');
-
                 // 4. Redirect to login after 3 seconds
                 setTimeout(() => {
-                    window.location.href = 'cryptoback2/login';
-                }, 3000);
-
-                // 4. Redirect to login after 3 seconds
-                setTimeout(() => {
-                    window.location.href = '/Cryptoback2/login';
+                    window.location.href = '/bitwise/login';
                 }, 3000);
             }
         })
@@ -132,7 +126,7 @@
 
             // 4. Redirect to login after 3 seconds
             setTimeout(() => {
-                    window.location.href = '/Cryptoback2/Signup';
+                    window.location.href = '/bitwise/Signup';
                 }, 3000);
         });
 });

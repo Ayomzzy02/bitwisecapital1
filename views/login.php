@@ -63,7 +63,7 @@
                 <button type="submit" class="button">Log in</button>
                 <div class="wthree-text"> 
                     <ul> 
-                        <li><a href="/Cryptoback2/Signup">Create An Account</a></li>
+                        <li><a href="/bitwise/Signup">Create An Account</a></li>
                     </ul>
                 </div>  
             </form>
@@ -103,12 +103,12 @@
                 console.log(token);
 
                 // Send token to set session
-                const sessionResponse = await axios.post("/Cryptoback2/setSession.php", { token });
+                const sessionResponse = await axios.post("/bitwise/setSession.php", { token });
 
                 if (sessionResponse.data.status === 'success') {
                     // Handle successful login, e.g., redirect to the dashboard
                     document.cookie = `token=${token}; path=/; max-age=${24 * 60 * 60};`;
-                    window.location.href = '/Cryptoback2/dashboard';
+                    window.location.href = '/bitwise/dashboard';
                 } else {
                     console.error('Failed to set session:', sessionResponse.data.message);
                     showErrorModal('Failed to set session. Please try again.');

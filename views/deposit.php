@@ -4,7 +4,7 @@ session_start(); // Start the session
 // Check if the user is authenticated
 if (!isset($_SESSION['authToken'])) {
     // If not authenticated, redirect to the login page
-    header("Location: /cryptoback2/logout.php");
+    header("Location: /bitwise/logout.php");
     exit();
 }
 ?>

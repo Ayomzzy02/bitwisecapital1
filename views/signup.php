@@ -127,7 +127,7 @@ echo"</select></center>
 	<input type="submit" name="submit" class="button" value="Signup">									<div class="wthree-text"> 
 										<ul> 
 										 
-												<li> <a href="/Cryptoback2/login">Login</a> </li>
+												<li> <a href="/bitwise/login">Login</a> </li>
 										</ul>
 									</div>  
 								</form>

@@ -176,7 +176,7 @@
             <div class="row">
                 <!-- Logo Starts -->
                 <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
-                    <a href="/Cryptoback2">
+                    <a href="/bitwise">
                       <b> BITWISE CAPITAL </b>
                     </a>
                 </div>
@@ -202,8 +202,8 @@
                 <!-- User Sign In/Sign Up Starts -->
                 <div class="col-md-3 col-lg-3">
                     <ul class="unstyled user">
-                        <li class="sign-in"><a href="/Cryptoback2/login" class="btn btn-primary">sign in</a></li>
-                        <li class="sign-up"><a href="/Cryptoback2/Signup" class="btn btn-primary">register</a></li>
+                        <li class="sign-in"><a href="/bitwise/login" class="btn btn-primary">sign in</a></li>
+                        <li class="sign-up"><a href="/bitwise/Signup" class="btn btn-primary">register</a></li>
                     </ul>
                 </div>
                 <!-- User Sign In/Sign Up Ends -->
@@ -783,7 +783,7 @@
     <li>15% Weekly</li>
     <li>Max $1,999</li>
    
-    <li class="white"><a href="/Cryptoback2/Signup" class="button">Sign Up</a></li>
+    <li class="white"><a href="/bitwise/Signup" class="button">Sign Up</a></li>
   </ul>
 </div>
 
@@ -794,7 +794,7 @@
     <li>30% Weekly</li>
     <li>Max $4,999</li>
     
-    <li class="white"><a href="/Cryptoback2/Signup" class="button">Sign Up</a></li>
+    <li class="white"><a href="/bitwise/Signup" class="button">Sign Up</a></li>
   </ul>
 </div>
 
@@ -805,7 +805,7 @@
     <li>60% Weekly</li>
     <li>Max Unlimited</li>
  
-    <li class="white"><a href="/Cryptoback2/Signup" class="button">Sign Up</a></li>
+    <li class="white"><a href="/bitiwse/Signup" class="button">Sign Up</a></li>
   </ul>
 </div>
 
@@ -1470,7 +1470,7 @@
                     </div>
                     <!-- Call To Action Text Ends -->
                     <!-- Call To Action Button Starts -->
-                    <p class="action-btn"><a class="btn btn-primary" href="/Cryptoback2/Signup">Register Now</a></p>
+                    <p class="action-btn"><a class="btn btn-primary" href="/bitwise/Signup">Register Now</a></p>
                     <!-- Call To Action Button Ends -->
                 </div>
             </div>
@@ -1491,8 +1491,8 @@
                     <div class="menu">
                         <ul>
                            
-                            <li><a href="/Cryptoback2/Signup">Register</a></li>
-                            <li><a href="/Cryptoback2/login">Login</a></li>
+                            <li><a href="/bitwise/Signup">Register</a></li>
+                            <li><a href="/bitwise/login">Login</a></li>
                         </ul>
                     </div>
                 </div>
